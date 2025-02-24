@@ -77,8 +77,10 @@ namespace Wk6Ex1
             Vehicle.Car myCar = new Vehicle.Car("Toyota", "Camry", 2022, 240, 4); // creates a new car object
             Vehicle.Motorcycle myMotorcycle = new Vehicle.Motorcycle("Harley Davidson", "Cruiser", 2019, 180, false); // creates a new motorcycle object
 
-            Console.WriteLine("Car Information:");
-            myCar.DisplayInfo();
+            Console.WriteLine("Car Information:"); // displays the car information
+            myCar.DisplayInfo(); // calls the display info method to display the car information
+
+            //same for motorcycle
             Console.WriteLine("\nMotorcycle Information:");
             myMotorcycle.DisplayInfo();
 
